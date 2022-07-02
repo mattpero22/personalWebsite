@@ -9,11 +9,11 @@ import './App.css';
 
 function App() {
   return (
-    <p>
+    <div className='app'>
       <Header> </Header>
       <Main> </Main>
       <Footer> </Footer>
-    </p>
+    </div>
   );
 }
 

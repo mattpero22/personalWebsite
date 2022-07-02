@@ -1,13 +1,11 @@
 const Header = () => {
     return (
-        <header>
-            <ul>
+            <ul className="header">
                 <li>About</li>
                 <li>Projects</li>
                 <li>Resume</li>
                 <li>Email</li>
             </ul>
-        </header>
     );
 }
 
