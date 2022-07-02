@@ -1,10 +1,14 @@
 import React from 'react';
+// components / pages
+import './components/Header'
+// stylesheets
 import './App.css';
+import Header from './components/Header';
 
 function App() {
   return (
     <p>
-      Cleanedup React App
+      <Header> </Header>
     </p>
   );
 }
