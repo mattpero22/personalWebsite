@@ -1,6 +1,6 @@
 const Header = () => {
     return (
-            <ul className="header">
+            <ul className="Header">
                 <li>About</li>
                 <li>Projects</li>
                 <li>Resume</li>
