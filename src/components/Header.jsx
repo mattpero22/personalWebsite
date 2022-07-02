@@ -1,6 +1,13 @@
 const Header = () => {
     return (
-        <h1>HEADER COMPONENT</h1>
+        <header>
+            <ul>
+                <li>About</li>
+                <li>Projects</li>
+                <li>Resume</li>
+                <li>Email</li>
+            </ul>
+        </header>
     );
 }
 

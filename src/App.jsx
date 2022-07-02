@@ -11,8 +11,8 @@ function App() {
   return (
     <p>
       <Header> </Header>
-      <Footer> </Footer>
       <Main> </Main>
+      <Footer> </Footer>
     </p>
   );
 }
