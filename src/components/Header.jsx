@@ -4,7 +4,7 @@ const Header = () => {
                 <li>About</li>
                 <li>Projects</li>
                 <li>Resume</li>
-                <li>Email</li>
+                <li>Contact</li>
             </ul>
     );
 }

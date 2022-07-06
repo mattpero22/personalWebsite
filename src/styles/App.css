@@ -1,5 +1,21 @@
+@font-face {
+    font-family: 'choir';
+    src: url('../static/Choir.ttf');
+}
+
 .App {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+
+}
+
+.App > * > * {
+    font-family: 'choir';
+}
+
+.App > * > * > * {
+    font-family: 'choir';
 }
