@@ -4,7 +4,6 @@ const Home = () => {
             <div className="home-name" id="home-first">
                 <div className="letter" id="M">
                     <div className="mtn" id="mtn1"></div>
-                    {/* <div className="mtn" id="mtn1snow"></div> */}
                     <div className="mtn" id="mtn2"></div>
                 </div>
                 <div className="letter" id="A">A</div>
