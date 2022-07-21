@@ -7,8 +7,25 @@
     justify-content: space-evenly;
 }
 
+.letter {
+    min-height: 100px;
+}
+
 #M {
     color: grey;
+    display: flex;
+}
+
+.mtn {
+    position: relative;
+    border-top: 0px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 200px solid grey;
+    border-left: 100px solid transparent;
+}
+
+#mtn2 {
+    right: 75px;
 }
 
 #A {
