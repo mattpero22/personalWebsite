@@ -3,12 +3,13 @@
     font-size: 15vw;
     margin: 10px;
     width: 80%;
-    max-width: 750px;
+    max-width: px;
     justify-content: space-evenly;
 }
 
 .letter {
     min-height: 100px;
+    width: 20%;
 }
 
 #M {
@@ -19,13 +20,14 @@
 .mtn {
     position: relative;
     border-top: 0px solid transparent;
-    border-right: 100px solid transparent;
-    border-bottom: 200px solid grey;
-    border-left: 100px solid transparent;
+    border-right: 5vw solid transparent;
+    border-bottom: 10vw solid grey;
+    border-left: 4vw solid transparent;
 }
 
 #mtn2 {
-    right: 75px;
+    border-bottom: 11vw solid grey;
+    right: 15%;
 }
 
 #A {
