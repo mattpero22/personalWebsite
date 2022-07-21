@@ -1,11 +1,23 @@
 import React from 'react';
-import './App.css';
+// components / pages
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Main from './components/Main';
+// stylesheets
+import './styles/App.css';
+import './styles/Header.css';
+import './styles/Home.css';
+import './styles/letters/M.css';
+import './styles/letters/A.css'
+
 
 function App() {
   return (
-    <p>
-      Cleanedup React App
-    </p>
+    <div className='App'>
+      <Header> </Header>
+      <Main> </Main>
+      <Footer> </Footer>
+    </div>
   );
 }
 

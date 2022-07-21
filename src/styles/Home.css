@@ -1,0 +1,64 @@
+.home-name {
+    display: flex;
+    font-size: 15vw;
+    margin: 10px;
+    width: 80%;
+    justify-content: space-evenly;
+}
+
+.letter {
+    min-height: 100px;
+    width: 20%;
+}
+
+#T2 {
+    color: green
+}
+
+#P {
+    color: purple;
+}
+
+#E {
+    color: dodgerblue;
+}
+
+#R {
+    color: slateblue;
+}
+
+#O {
+    color: black;
+}
+
+@media screen and ( max-width: 600px ) {
+    .home-name {
+        width: 50%;
+    }
+    .mtn {
+        border-top: 0px solid transparent;
+        border-right: 8vw solid transparent;
+        border-bottom: 16vw solid grey;
+        border-left: 8vw solid transparent;
+    }
+    #mtn2 {
+        border-bottom: 18vw solid grey;
+        right: 50%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .home-name {
+        width: 65%;
+    }
+    .mtn {
+        border-top: 0px solid transparent;
+        border-right: 7vw solid transparent;
+        border-bottom: 14vw solid grey;
+        border-left: 7vw solid transparent;
+    }
+    #mtn2 {
+        border-bottom: 16vw solid grey;
+        right: 50%;
+    }
+}
