@@ -67,6 +67,25 @@
     border-left: 4.1vw solid transparent;
 }
 
+#outertent:active ~ #innertent {
+    animation: opentent 2s;
+}
+
+@keyframes opentent {
+    0% {
+        right: 145.3%;
+        border-right: .2vw solid transparent;
+        border-bottom: 4.5vw solid #C56F07;
+        border-left: .2vw solid transparent;
+    } 
+    100% {
+        right: 159.9%;
+        border-right: 2.5vw solid transparent;
+        border-bottom: 4.5vw solid #FDCA40;
+        border-left: 2.5vw solid transparent;
+    }
+}
+
 #innertent {
     z-index: 4;
 }
