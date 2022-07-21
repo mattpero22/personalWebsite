@@ -7,6 +7,38 @@
     justify-content: space-evenly;
 }
 
+#M {
+    color: grey;
+}
+
+#A {
+    color: rgb(255, 149, 0);
+}
+
+#T1 {
+    color: rgb(131, 67, 21);
+}
+
+#T2 {
+    color: green
+}
+
+#P {
+    color: purple;
+}
+
+#E {
+    color: dodgerblue;
+}
+
+#R {
+    color: slateblue;
+}
+
+#O {
+    color: black;
+}
+
 @media screen and ( max-width: 600px ) {
     .home-name {
         width: 50%;
