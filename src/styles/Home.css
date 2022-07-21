@@ -64,8 +64,17 @@
     border-left: 4.8vw solid transparent;
 }
 
+#outertent {
+    z-index: 3;
+    right: 118.3%;
+    border-right: 4.1vw solid transparent;
+    border-left: 4.1vw solid transparent;
+}
+
+
 #innertent {
     border-bottom: 8vw solid #FDCA40;
+
 }
 
 #T2 {
