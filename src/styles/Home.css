@@ -1,7 +1,21 @@
 .home-name {
     display: flex;
-    font-size: 128px;
+    font-size: 15vw;
     margin: 10px;
-    width: 650px;
+    width: 80%;
+    max-width: 750px;
     justify-content: space-evenly;
+}
+
+@media screen and ( max-width: 600px ) {
+    .home-name {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .home-name {
+        width: 65%;
+    }
+    
 }
