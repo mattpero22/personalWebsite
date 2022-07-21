@@ -39,10 +39,6 @@
     display: flex;
 }
 
-.stake {
-
-}
-
 .tent {
     position: relative;
     border-top: 0px solid transparent;
@@ -66,19 +62,29 @@
 
 #outertent {
     z-index: 3;
-    right: 118.3%;
+    right: 118.2%;
     border-right: 4.1vw solid transparent;
     border-left: 4.1vw solid transparent;
 }
 
 #innertent {
     z-index: 4;
-    right: 160%;
-    border-right: 2.5vw solid transparent;
-    border-bottom: 8vw solid #FDCA40;
-    border-left: 2.5vw solid transparent;
-
 }
+
+.tent_open {
+    right: 159.9%;
+    border-right: 2.5vw solid transparent;
+    border-bottom: 4.5vw solid #FDCA40;
+    border-left: 2.5vw solid transparent;
+}
+
+.tent_closed {
+    right: 145.3%;
+    border-right: .2vw solid transparent;
+    border-bottom: 4.5vw solid #C56F07;
+    border-left: .2vw solid transparent;
+}
+
 
 #T2 {
     color: green
