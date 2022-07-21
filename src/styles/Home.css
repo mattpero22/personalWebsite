@@ -1,47 +1,7 @@
 .home-name {
     display: flex;
     font-size: 128px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 10px;
     width: 650px;
-    justify-content: center;
+    justify-content: space-evenly;
 }
-
-.aware-area {
-    background-color: lightcoral;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: baseline;
-}
-
-.eyeball {
-    position: absolute
-}
-
-#eye {
-    margin: auto;
-    background-color: white;
-    height: 100px;
-    width: 100px;
-    border-radius: 55% 5px;
-    border: 4px solid black;
-    transform: rotate(45deg);
-    margin-left: 25px;
-}
-
-#iris {
-    background-color: skyblue;
-    height: 65px;
-    width: 65px;
-    border: 1px solid rgb(155, 155, 202);
-    border-radius: 100%;
-
-}
-
-#pupil {
-    background-color: black;
-    height: 30px;
-    width: 30px;
-    border-radius: 100%;
-} 

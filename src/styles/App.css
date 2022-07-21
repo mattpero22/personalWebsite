@@ -18,9 +18,5 @@
 }
 
 .App > * > * {
-    font-family: 'mont-l';
-}
-
-.App > * > * > * {
     font-family: 'mont-h';
 }
