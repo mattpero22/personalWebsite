@@ -1,18 +1,12 @@
 import M from '../components/letters/M'
+import A from '../components/letters/A'
 
 const Home = () => {
     return (
         <>
             <div className="home-name" id="home-first">
                 <M> </M>
-                <div className="letter" id="A">
-                    <div className="stake" id="stake1"></div>
-                    <div className="tent" id="strings"></div>
-                    <div className="tent" id="airgap"></div>
-                    <div className="tent" id="outertent"></div>
-                    <div className="tent tent_closed" id="innertent"></div>
-                    <div className="stake" id="stake2"></div>
-                </div>
+                <A> </A>
                 <div className="letter" id="T1">T</div>
                 <div className="letter" id="T2">T</div>
             </div>

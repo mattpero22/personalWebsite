@@ -7,7 +7,8 @@ import Main from './components/Main';
 import './styles/App.css';
 import './styles/Header.css';
 import './styles/Home.css';
-import './styles/M.css';
+import './styles/letters/M.css';
+import './styles/letters/A.css'
 
 
 function App() {
