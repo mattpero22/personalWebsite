@@ -12,14 +12,7 @@ const Home = () => {
                     <div id="P">P</div>
                     <div id="E">E</div>
                     <div id="R">R</div>
-                    <div id="O">
-                        <div className="eyeball" id="eye">
-                            <div className="eyeball" id="iris">
-                                <div className="eyeball" id="pupil">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <div id="O">O</div>
                 </div>
             </div>
         </>

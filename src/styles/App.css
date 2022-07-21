@@ -1,6 +1,11 @@
 @font-face {
-    font-family: 'choir';
-    src: url('../static/Choir.ttf');
+    font-family: 'mont-h';
+    src: url('../static/Mont-heavy.otf');
+}
+
+@font-face {
+    font-family: 'mont-l';
+    src: url('../static/Mont-light.otf');
 }
 
 .App {
@@ -13,9 +18,9 @@
 }
 
 .App > * > * {
-    font-family: 'choir';
+    font-family: 'mont-l';
 }
 
 .App > * > * > * {
-    font-family: 'choir';
+    font-family: 'mont-h';
 }
