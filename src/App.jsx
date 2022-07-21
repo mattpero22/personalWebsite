@@ -7,6 +7,7 @@ import Main from './components/Main';
 import './styles/App.css';
 import './styles/Header.css';
 import './styles/Home.css';
+import './styles/M.css';
 
 
 function App() {

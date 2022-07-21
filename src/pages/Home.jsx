@@ -1,11 +1,10 @@
+import M from '../components/letters/M'
+
 const Home = () => {
     return (
         <>
             <div className="home-name" id="home-first">
-                <div className="letter" id="M">
-                    <div className="mtn" id="mtn1"></div>
-                    <div className="mtn" id="mtn2"></div>
-                </div>
+                <M> </M>
                 <div className="letter" id="A">
                     <div className="stake" id="stake1"></div>
                     <div className="tent" id="strings"></div>
