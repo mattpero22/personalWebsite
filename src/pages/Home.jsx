@@ -7,8 +7,8 @@ const Home = () => {
             <div className="home-name" id="home-first">
                 <M> </M>
                 <A> </A>
-                <div className="letter" id="T1">T</div>
-                <div className="letter" id="T2">T</div>
+                <div className="letter" id="T1"></div>
+                <div className="letter" id="T2"></div>
             </div>
             <div className="home-name" id="home-last">
                 <div className="letter" id="P">P</div>

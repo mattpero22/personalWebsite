@@ -9,7 +9,6 @@
     border-right: 5vw solid transparent;
     border-bottom: 8vw solid #F79824;
     border-left: 5vw solid transparent;
-    transition: 1s ease-in-out;
 }
 
 #strings {
@@ -41,7 +40,7 @@
     border-right: 2.5vw solid transparent;
     border-bottom: 4.5vw solid #FDCA40;
     border-left: 2.5vw solid transparent;
-
+    transition: 1s;
 }
 
 .tent_closed {
@@ -49,4 +48,5 @@
     border-right: .2vw solid transparent;
     border-bottom: 4.5vw solid #C56F07;
     border-left: .2vw solid transparent;
+    transition: 1s;
 }
