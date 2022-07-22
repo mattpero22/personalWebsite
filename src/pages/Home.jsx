@@ -1,5 +1,6 @@
 import M from '../components/letters/M'
 import A from '../components/letters/A'
+import T from '../components/letters/T'
 
 const Home = () => {
     return (
@@ -7,8 +8,8 @@ const Home = () => {
             <div className="home-name" id="home-first">
                 <M> </M>
                 <A> </A>
-                <div className="letter" id="T1"></div>
-                <div className="letter" id="T2"></div>
+                <T> </T>
+                <T> </T>
             </div>
             <div className="home-name" id="home-last">
                 <div className="letter" id="P">P</div>

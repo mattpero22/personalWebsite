@@ -13,7 +13,6 @@ const A = () => {
     }
 
     return (
-
         <div className='letter' id='A' onMouseOver={handleTentOpen} onMouseOut={handleTentClose}>
             <div className='tent' id='strings'></div>
             <div className='tent' id='airgap'></div>

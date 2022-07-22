@@ -9,6 +9,7 @@ import './styles/Header.css';
 import './styles/Home.css';
 import './styles/letters/M.css';
 import './styles/letters/A.css'
+import './styles/letters/T.css'
 
 
 function App() {

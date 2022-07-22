@@ -1,0 +1,14 @@
+#T {
+    display: flex;
+}
+
+.trunk {
+    border-top: 0px solid transparent;
+    border-right: .5vw solid transparent;
+    border-bottom: 9vw solid #312421;
+    border-left: .5vw solid transparent;
+}
+
+#base {
+    z-index: 1;
+}
