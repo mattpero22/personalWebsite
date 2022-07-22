@@ -7,7 +7,7 @@
     position: relative;
     border-top: 0px solid transparent;
     border-right: 5vw solid transparent;
-    border-bottom: 10vw solid #6E8087;
+    border-bottom: 11vw solid #6E8087;
     border-left: 5vw solid transparent;
 }
 
@@ -17,6 +17,6 @@
 
 #mtn2 {
     z-index: 3;
-    border-bottom: 11vw solid #84949A;
+    border-bottom: 13vw solid #84949A;
     right: 33%;
 }

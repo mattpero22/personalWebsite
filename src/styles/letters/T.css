@@ -6,15 +6,16 @@
 .trunk {
     border-top: 0px solid transparent;
     border-right: .5vw solid transparent;
-    border-bottom: 9vw solid #312421;
+    border-bottom: 11vw solid #312421;
     border-left: .5vw solid transparent;
 }
 
 #base {
-    z-index: 2;
+    z-index: 4;
 }
 
 .branch {
+    z-index: 3;
     position: relative;
     border-top: 0px solid transparent;
     border-right: .3vw solid transparent;
@@ -24,10 +25,12 @@
 
 #left_branch {
     transform: rotate(-90deg);
-    right: 57%;
+    right: 68%;
+    top: 12%
 }
 
 #right_branch {
     transform: rotate(90deg);
-    right: -38%
+    right: -48%;
+    top: 12%;
 }
