@@ -2,14 +2,22 @@ import { useState } from 'react';
 
 const A = () => {
 
-    const [ tentState, setTentState ] = useState('closed');
+    const [ tent , setTent ] = useState('tent_closed');
+
+    const handleTentOpen = () => {
+        setTent('tent_open')
+    }
+
+    const handleTentClose = () => {
+        setTent('tent_closed')
+    }
 
     return (
-        <div className="letter" id="A">
-            <div className="tent" id="strings"></div>
-            <div className="tent" id="airgap"></div>
-            <div className="tent" id="outertent"></div>
-            <div className="tent tent_closed" id="innertent"></div>
+        <div className='letter' id='A' onMouseOver={handleTentOpen} onMouseOut={handleTentClose}>
+            <div className='tent' id='strings'></div>
+            <div className='tent' id='airgap'></div>
+            <div className='tent' id='outertent'></div>
+            <div id='innertent' className={`tent ${tent}`}></div>
         </div>
     )
 }

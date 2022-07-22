@@ -9,6 +9,7 @@
     border-right: 5vw solid transparent;
     border-bottom: 8vw solid #F79824;
     border-left: 5vw solid transparent;
+    transition: 1s ease-in-out;
 }
 
 #strings {
@@ -31,8 +32,23 @@
     border-left: 4.1vw solid transparent;
 }
 
-#outertent:active ~ #innertent {
-    animation: opentent 2s;
+#innertent {
+    z-index: 4;
+}
+
+.tent_open {
+    right: 159.9%;
+    border-right: 2.5vw solid transparent;
+    border-bottom: 4.5vw solid #FDCA40;
+    border-left: 2.5vw solid transparent;
+
+}
+
+.tent_closed {
+    right: 145.3%;
+    border-right: .2vw solid transparent;
+    border-bottom: 4.5vw solid #C56F07;
+    border-left: .2vw solid transparent;
 }
 
 @keyframes opentent {
@@ -50,20 +66,3 @@
     }
 }
 
-#innertent {
-    z-index: 4;
-}
-
-.tent_open {
-    right: 159.9%;
-    border-right: 2.5vw solid transparent;
-    border-bottom: 4.5vw solid #FDCA40;
-    border-left: 2.5vw solid transparent;
-}
-
-.tent_closed {
-    right: 145.3%;
-    border-right: .2vw solid transparent;
-    border-bottom: 4.5vw solid #C56F07;
-    border-left: .2vw solid transparent;
-}
