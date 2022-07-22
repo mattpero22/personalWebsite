@@ -1,5 +1,6 @@
 #T {
     display: flex;
+    width: 14%;
 }
 
 .trunk {
@@ -10,5 +11,23 @@
 }
 
 #base {
-    z-index: 1;
+    z-index: 2;
+}
+
+.branch {
+    position: relative;
+    border-top: 0px solid transparent;
+    border-right: .3vw solid transparent;
+    border-bottom: 3vw solid #312421;
+    border-left: .3vw solid transparent;
+}
+
+#left_branch {
+    transform: rotate(-90deg);
+    right: 57%;
+}
+
+#right_branch {
+    transform: rotate(90deg);
+    right: -38%
 }
