@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'mont-h';
+    src: url('../static/Mont-heavy.otf');
+}
+
 .home-name {
     display: flex;
     width: 80%;
@@ -7,6 +12,7 @@
 .letter {
     min-height: 100px;
     width: 20%;
+    font-family: 'mont-h';
 }
 
 @media screen and ( max-width: 600px ) {

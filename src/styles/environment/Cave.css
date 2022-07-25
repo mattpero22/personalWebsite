@@ -17,7 +17,7 @@
 #layer3 {
     z-index: 3;
     position: relative;
-    height: 100%;
+    height: 50vh;
     width: 100%;
     background-color: #84949A;
 }
@@ -26,20 +26,56 @@
     z-index: 2;
     position: relative;
     background-color: #6E8087;
-    height: 80%;
+    height: 27vh;
     width: 95%;
     left: 2.5%;
-    top: 5%;
+    top: 15px;
+    border-radius: 25%;
 }
 
 #layer1 {
     z-index: 1;
     position: relative;
     background-color: #5C6A70;
-    top: 5%;
-    height: 50%;
-    width: 80%;
-    left: 10%;
+    top: 15px;
+    height: 20vh;
+    width: 90%;
+    left: 5%;
     display: flex;
-    
+    justify-content: center;
+    align-items: flex-end;
+    color: #6E8087;
+    border-radius: 25%;
+}
+
+.cave_letter {
+    position: absolute;
+    font-family: 'mont-h';
+}
+
+#P { left: 15% }
+#E { left: 35% }
+#R { left: 55% }
+#O { left: 75%}
+
+.emerald {
+    width: 50px;
+}
+
+.amethyst {
+    width: 50px;
+}
+
+@media screen and ( max-width: 600px ) {
+    .cave_letter {
+        font-size: 150px;
+        bottom: -70px;
+    }
+}
+
+@media screen and ( max-width: 600px ) {
+    .cave_letter {
+        font-size: 150px;
+        bottom: -70px;
+    }
 }
