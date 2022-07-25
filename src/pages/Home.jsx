@@ -1,3 +1,5 @@
+import Ground from '../components/environment/Ground'
+
 import M from '../components/letters/M'
 import A from '../components/letters/A'
 import T from '../components/letters/T'
@@ -11,15 +13,8 @@ const Home = () => {
                 <T> </T>
                 <T> </T>
             </div>
-            <div className="ground">
-                <div className="ground" id="grass1"></div>
-                <div className="ground" id="grass2"></div>
-                <div className="ground dirt1"></div>
-                <div className="ground dirt2"></div>
-                <div className="ground dirt1"></div>
-                <div className="ground dirt2"></div>
-                <div className="ground dirt1"></div>
-                <div className="ground dirt2"></div>
+            <div id="earth">
+                <Ground> </Ground>
             </div>
             <div className="home-name" id="home-last">
                 <div className="letter" id="P">P</div>
