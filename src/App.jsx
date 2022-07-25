@@ -11,6 +11,7 @@ import './styles/letters/M.css';
 import './styles/letters/A.css';
 import './styles/letters/T.css';
 import './styles/environment/Ground.css';
+import './styles/environment/Cave.css';
 
 
 function App() {

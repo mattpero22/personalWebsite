@@ -1,0 +1,8 @@
+#cave {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55vh;
+    width: 100vw;
+    background-color: #6E8087;
+}

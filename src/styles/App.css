@@ -8,6 +8,10 @@
     src: url('../static/Mont-light.otf');
 }
 
+:root {
+    background-color:#C2E3FE;
+}
+
 .App {
     display: flex;
     flex-direction: column;
@@ -17,5 +21,5 @@
 }
 
 .App > * > * {
-    font-family: 'mont-h';
+    font-family: 'mont-l';
 }

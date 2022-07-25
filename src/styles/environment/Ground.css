@@ -1,7 +1,6 @@
 .ground {
     height: 15px;
     width: 100vw;
-    margin: 0px;
 }
 
 .grass1 {
@@ -15,7 +14,3 @@
     background-color: #946F38;
 }
 .dirt2 { background-color: #7d5f32; }
-
-.stone1 {
-    background-color: #6E8087;
-}
