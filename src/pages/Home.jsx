@@ -14,6 +14,12 @@ const Home = () => {
             <div className="ground">
                 <div className="ground" id="grass1"></div>
                 <div className="ground" id="grass2"></div>
+                <div className="ground dirt1"></div>
+                <div className="ground dirt2"></div>
+                <div className="ground dirt1"></div>
+                <div className="ground dirt2"></div>
+                <div className="ground dirt1"></div>
+                <div className="ground dirt2"></div>
             </div>
             <div className="home-name" id="home-last">
                 <div className="letter" id="P">P</div>

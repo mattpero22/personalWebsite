@@ -20,10 +20,17 @@
 
 #grass1 {
     border-top: solid 1px #577140 ;
-    background-color: #799D5A;
+    background-color: #6e8e53;
 }
-#grass2 { background-color: #6a8a4d; }
-#grass2 { background-color: #6a8a4d; }
+#grass2 { background-color: #69874c; }
+#grass3 { background-color: #65824b; }
+
+.dirt1 {
+    border-top: solid 1px #876532 ;
+    background-color: #946F38;
+}
+.dirt2 { background-color: #7d5f32; }
+#dirt3 { background-color: #946F38; }
 
 #P {
     color: purple;
