@@ -8,8 +8,9 @@ import './styles/App.css';
 import './styles/Header.css';
 import './styles/Home.css';
 import './styles/letters/M.css';
-import './styles/letters/A.css'
-import './styles/letters/T.css'
+import './styles/letters/A.css';
+import './styles/letters/T.css';
+import './styles/environment/Ground.css';
 
 
 function App() {
