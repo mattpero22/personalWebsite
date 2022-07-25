@@ -1,81 +1,43 @@
-#cave {
+.cave {
+    z-index: 1;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 55vh;
+    justify-content: space-between;
     width: 100vw;
-    background-color: #84949A;
+    height: 30vh;
+    background-color: #404B4F;
 }
 
-#cave > * {
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
-}
-
-#layer3 {
-    z-index: 3;
-    position: relative;
-    height: 50vh;
+.stone1 {
+    height: 25px;
     width: 100%;
-    background-color: #84949A;
-}
-
-#layer2 {
-    z-index: 2;
-    position: relative;
-    background-color: #6E8087;
-    height: 27vh;
-    width: 95%;
-    left: 2.5%;
-    top: 15px;
-    border-radius: 25%;
-}
-
-#layer1 {
-    z-index: 1;
-    position: relative;
-    background-color: #5C6A70;
-    top: 15px;
-    height: 20vh;
-    width: 90%;
-    left: 5%;
     display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    color: #6E8087;
-    border-radius: 25%;
+    background-color: #6E8187;
+    border-top: 1px solid #58666b;
 }
 
-.cave_letter {
-    position: absolute;
-    font-family: 'mont-h';
+.stone2 {
+    height: 15px;
+    width: 100%;
+    display: flex;
+    background-color: #5C6B70;
+    border-top: 1px solid #4a565a;
 }
 
-#P { left: 15% }
-#E { left: 35% }
-#R { left: 55% }
-#O { left: 75%}
-
-.emerald {
-    width: 50px;
+.tite .mite {
+    border-top: 0px solid transparent;
+    border-bottom: 5vw solid purple;
+    border-top: 1vw solid transparent;
+    border-top: 1vw solid transparent;
 }
 
-.amethyst {
-    width: 50px;
+.tite { transform: rotate(180deg);
 }
 
-@media screen and ( max-width: 600px ) {
-    .cave_letter {
-        font-size: 150px;
-        bottom: -70px;
-    }
+.tite1 .mite1 {
+   border-bottom: 5vw solid #6E8187;
 }
 
-@media screen and ( max-width: 600px ) {
-    .cave_letter {
-        font-size: 150px;
-        bottom: -70px;
-    }
+.tite2 .mite2 {
+    border-bottom: 5vw solid #5C6B70;
 }
