@@ -1,8 +1,45 @@
 #cave {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 55vh;
     width: 100vw;
+    background-color: #84949A;
+}
+
+#cave > * {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+#layer3 {
+    z-index: 3;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: #84949A;
+}
+
+#layer2 {
+    z-index: 2;
+    position: relative;
     background-color: #6E8087;
+    height: 80%;
+    width: 95%;
+    left: 2.5%;
+    top: 5%;
+}
+
+#layer1 {
+    z-index: 1;
+    position: relative;
+    background-color: #5C6A70;
+    top: 5%;
+    height: 50%;
+    width: 80%;
+    left: 10%;
+    display: flex;
+    
 }

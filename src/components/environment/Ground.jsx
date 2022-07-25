@@ -5,8 +5,6 @@ const Ground = () => {
         <div className="ground grass2"></div>
         <div className="ground dirt1"></div>
         <div className="ground dirt2"></div>
-        <div className="ground dirt1"></div>
-        <div className="ground dirt2"></div>
     </div>
     )
 }
