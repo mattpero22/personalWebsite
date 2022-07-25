@@ -4,12 +4,26 @@
     margin: 10px;
     width: 80%;
     justify-content: center;
+    margin-bottom: 0;
 }
 
 .letter {
     min-height: 100px;
     width: 20%;
 }
+
+.ground {
+    height: 15px;
+    width: 100vw;
+    margin: 0px;
+}
+
+#grass1 {
+    border-top: solid 1px #577140 ;
+    background-color: #799D5A;
+}
+#grass2 { background-color: #6a8a4d; }
+#grass2 { background-color: #6a8a4d; }
 
 #P {
     color: purple;
