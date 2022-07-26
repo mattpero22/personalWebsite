@@ -171,8 +171,8 @@
 
 #p31 {
     border-top: 9vw solid #6E8187;
-    border-left: 1vw solid transparent;
-    border-right: 1vw solid transparent;
+    border-left: .4vw solid transparent;
+    border-right: .4vw solid transparent;
     top:-8vw;
 }
 
@@ -184,28 +184,31 @@
 }
 
 #p33 {
-    border-top: 3.75vw solid #6E8187;
+    border-top: 8vw solid #6E8187;
     border-left: .5vw solid transparent;
     border-right: .5vw solid transparent;
+    top: -7vw;
 }
 
 #p34 {
-    border-top: 12vw solid #6E8187;
-    border-left: .8vw solid transparent;
-    border-right: .8vw solid transparent;
+    border-top: 8.2vw solid #6E8187;
+    border-left: .6vw solid transparent;
+    border-right: .6vw solid transparent;
+    top: -8vw;
 }
 
 #p35 {
-    border-top: 15vw solid #6E8187;
-    border-left: 1vw solid transparent;
-    border-right: 1vw solid transparent;
+    border-top: 11vw solid #6E8187;
+    border-left: .9vw solid transparent;
+    border-right: .9vw solid transparent;
+    top:-10vw
 }
 
 #p41 {
-    border-top: 11vw solid #5C6B70;
-    border-left: 1vw solid transparent;
-    border-right: 1vw solid transparent;
-    top:-10vw;
+    border-top: 8vw solid #5C6B70;
+    border-left: .6vw solid transparent;
+    border-right: .6vw solid transparent;
+    top:-7.5vw;
 }
 
 #p42 {
@@ -216,15 +219,17 @@
 }
 
 #p43 {
-    border-top: 3.75vw solid #5C6B70;
+    border-top: 5vw solid #5C6B70;
     border-left: .5vw solid transparent;
     border-right: .5vw solid transparent;
+    top: -4.5vw;
 }
 
 #p44 {
-    border-top: 12vw solid #5C6B70;
+    border-top: 6vw solid #5C6B70;
     border-left: .8vw solid transparent;
     border-right: .8vw solid transparent;
+    top: -5vw;
 }
 
 #p45 {

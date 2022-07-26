@@ -102,6 +102,16 @@ const Cave = () => {
                     <div className="tite medh"></div>
                     {/* P back */}
                     <div className="mite" id="p42"></div>
+                    <div className="mite largeh"></div>
+                    <div className="mite" id="p41"></div>
+                    <div className="mite" id="p42"></div>
+                    <div className="mite" id="p43"></div>
+                    <div className="mite" id="p43"></div>
+                    <div className="mite" id="p44"></div>
+                    <div className="mite" id="p43"></div>
+                    <div className="mite" id="p43"></div>
+                    <div className="mite" id="p41"></div>
+                    <div className="mite" id="p41"></div>
                 </div>
 
                 <div className="stone1">
@@ -129,14 +139,17 @@ const Cave = () => {
                     <div className="tite smallh"></div>
                     {/* P front */}
                     <div className="mite" id="p32"></div>
-                    <div className="mite largeh"></div>
+                    <div className="mite smallh"></div>
+                    <div className="mite smallh"></div>
                     <div className="mite" id="p31"></div>
                     <div className="mite" id="p31"></div>
-                    <div className="mite" id="p31"></div>
-                    <div className="mite" id="p31"></div>
-                    <div className="mite" id="p31"></div>
-                    <div className="mite" id="p31"></div>
-
+                    <div className="mite" id="p33"></div>
+                    <div className="mite" id="p33"></div>
+                    <div className="mite" id="p33"></div>
+                    <div className="mite" id="p34"></div>
+                    <div className="mite" id="p34"></div>
+                    <div className="mite" id="p35"></div>
+                    <div className="mite" id="p34"></div>
                 </div>
             </div>
 
