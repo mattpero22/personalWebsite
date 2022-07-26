@@ -60,3 +60,37 @@
     border-left: 5vw solid transparent;
     border-right: 5vw solid transparent;
 }
+
+.small {
+    border-top: 4.2vw solid #6E8187;
+    border-left: .3vw solid transparent;
+    border-right: .3vw solid transparent;
+}
+
+.med {
+    border-top: 6vw solid #6E8187;
+    border-left: .5vw solid transparent;
+    border-right: .5vw solid transparent;
+}
+
+.large {
+    border-top: 7.8vw solid #6E8187;
+    border-left: .82vw solid transparent;
+    border-right: .82vw solid transparent;
+}
+
+.xl {
+    border-top: 10vw solid #6E8187;
+    border-left: 1vw solid transparent;
+    border-right: 1vw solid transparent;
+}
+
+/* layer 1 of roof for name */
+
+
+/* layer 2 of roof for name */
+#t2-1 {
+    border-top: 10vw solid #5C6B70;
+    border-left: 5vw solid transparent;
+    border-right: 5vw solid transparent;
+}
