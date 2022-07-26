@@ -5,6 +5,7 @@ import M from '../components/letters/M'
 import A from '../components/letters/A'
 import T from '../components/letters/T'
 
+
 const Home = () => {
     return (
         <>
@@ -15,7 +16,11 @@ const Home = () => {
                 <T> </T>
             </div>
             <Ground> </Ground>
-            <Cave> </Cave>
+            <Cave> 
+                <div className="home-name" id="home-last">
+
+                </div>
+            </Cave>
         </>
     )
 
