@@ -85,12 +85,26 @@
     border-right: 1vw solid transparent;
 }
 
-/* layer 1 of roof for name */
+.small2 {
+    border-top: 3.9vw solid #5C6B70;
+    border-left: .4vw solid transparent;
+    border-right: .4vw solid transparent;
+}
 
+.med2 {
+    border-top: 5.5vw solid #5C6B70;
+    border-left: .5vw solid transparent;
+    border-right: .5vw solid transparent;
+}
 
-/* layer 2 of roof for name */
-#t2-1 {
-    border-top: 10vw solid #5C6B70;
-    border-left: 5vw solid transparent;
-    border-right: 5vw solid transparent;
+.large2 {
+    border-top: 7.2vw solid #5C6B70;
+    border-left: .82vw solid transparent;
+    border-right: .82vw solid transparent;
+}
+
+.xl2 {
+    border-top: 8.888vw solid #5C6B70;
+    border-left: 1vw solid transparent;
+    border-right: 1vw solid transparent;
 }
