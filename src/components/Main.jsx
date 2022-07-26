@@ -2,7 +2,9 @@ import Home from '../pages/Home'
 
 const Main = () => {
     return (
-        <Home> </Home>
+        <div className='Main'>
+            <Home> </Home>
+        </div>
     );
 }
 

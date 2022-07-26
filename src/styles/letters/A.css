@@ -7,7 +7,7 @@
     position: relative;
     border-top: 0px solid transparent;
     border-right: 5vw solid transparent;
-    border-bottom: 8vw solid #F79824;
+    border-bottom: 8vw solid #3D314A;
     border-left: 5vw solid transparent;
 }
 
@@ -20,7 +20,7 @@
     z-index: 2;
     right: 61.8%;
     border-right: 4.8vw solid transparent;
-    border-bottom: 8vw solid #C2E3FE;
+    border-bottom: 8vw solid #b8bee5;
     border-left: 4.8vw solid transparent;
 }
 
@@ -35,7 +35,7 @@
     z-index: 3;
     right: 168.7%;
     border-right: 3.9vw solid transparent;
-    border-bottom: 7vw solid #d1802f;
+    border-bottom: 7vw solid #4E3C68;
     border-left: 3.9vw solid transparent;
 }
 

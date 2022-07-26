@@ -9,15 +9,16 @@
 }
 
 :root {
-    background-color:#C2E3FE;
+    background: linear-gradient(180deg, rgba(194,227,254,1) 0%, rgba(194,211,254,1) 15%, rgba(171,160,193,1) 75%, rgba(61,76,82,1) 100%);
 }
 
 .App {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
     height: 100vh;
-    background-color: #C2E3FE;
+    background: linear-gradient(180deg, rgba(194,227,254,1) 0%, rgba(194,211,254,1) 15%, rgba(171,160,193,1) 75%, rgba(61,76,82,1) 100%);
 }
 
 .App > * > * {
