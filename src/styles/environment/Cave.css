@@ -4,7 +4,7 @@
     flex-direction: column;
     justify-content: space-between;
     width: 100vw;
-    height: 30vh;
+    height: 20vw;
     background-color: #404B4F;
 }
 
@@ -25,27 +25,18 @@
     background-color: #5C6B70;
 }
 
-.tite1 {
+.tite {
     position: relative;
     z-index: inherit;
 }
 
-.mite1 {
+.mite { 
     position: relative;
     z-index: inherit;
-    transform: rotate(180deg);
-}
+ }
 
-.tite2 {
-    position: relative;
-    z-index: inherit;
-}
 
-.mite2 {
-    position: relative;
-    z-index: inherit;
-    transform: rotate(180deg);
-}
+
 
 /* Stalactite sizes for stone 1 () and 2 (2) */
 .small {
@@ -97,15 +88,8 @@
 }
 
 /* Stalagmite sizes and shift for stone 1 (3) and 2 (4) */
-.small4 {
-    border-top: 4.2vw solid #6E8187;
-    border-left: .3vw solid transparent;
-    border-right: .3vw solid transparent;
-    bottom: 25px;
-}
-/* 
-.med3 {
-    border-top: 6vw solid #6E8187;
+/* .med3 {
+    border-bottom: 6vw solid #6E8187;
     border-left: .5vw solid transparent;
     border-right: .5vw solid transparent;
 }
@@ -120,4 +104,4 @@
     border-top: 10vw solid #6E8187;
     border-left: 1vw solid transparent;
     border-right: 1vw solid transparent;
-} */
+}  */

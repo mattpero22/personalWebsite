@@ -1,61 +1,57 @@
 const Cave = () => {
     return (
-        <div class="cave">
+        <div className="cave">
             <div id="roof_left">
                 <div className="stone1">
-                    <div className="tite1 small"></div>
-                    <div className="tite1 med"></div>
-                    <div className="tite1 large"></div>
-                    <div className="tite1 xl"></div>
-                    <div className="tite1 med"></div>
-                    <div className="tite1 med"></div>
-                    <div className="tite1 small"></div>
-                    <div className="tite1 med"></div>
-                    <div className="tite1 large"></div>
-                    <div className="tite1 xl"></div>
-                    <div className="tite1 large"></div>
-                    <div className="tite1 med"></div>
-                    <div className="tite1 med"></div>
-                    <div className="tite1 small"></div>
-                    <div className="tite1 small"></div>
-                    <div className="tite1 med"></div>
-                    <div className="tite1 small"></div>
-                    <div className="tite1 large"></div>
-                    <div className="tite1 med"></div>
-                    <div className="tite1 small"></div>
-                    <div className="tite1 med"></div>
+                    <div className="tite small"></div>
+                    <div className="tite med"></div>
+                    <div className="tite large"></div>
+                    <div className="tite xl"></div>
+                    <div className="tite med"></div>
+                    <div className="tite med"></div>
+                    <div className="tite small"></div>
+                    <div className="tite med"></div>
+                    <div className="tite large"></div>
+                    <div className="tite xl"></div>
+                    <div className="tite large"></div>
+                    <div className="tite med"></div>
+                    <div className="tite med"></div>
+                    <div className="tite small"></div>
+                    <div className="tite small"></div>
+                    <div className="tite med"></div>
+                    <div className="tite small"></div>
+                    <div className="tite large"></div>
+                    <div className="tite med"></div>
+                    <div className="tite small"></div>
+                    <div className="tite med"></div>
                 </div>
                 <div className="stone2">
-                    <div className="tite2 large2"></div>
-                    <div className="tite2 small2"></div>
-                    <div className="tite2 xl2"></div>
-                    <div className="tite2 small2"></div>
-                    <div className="tite2 med2"></div>
-                    <div className="tite2 large2"></div>
-                    <div className="tite2 large2"></div>
-                    <div className="tite2 med2"></div>
-                    <div className="tite2 small2"></div>
-                    <div className="tite2 small2"></div>
-                    <div className="tite2 xl2"></div>
-                    <div className="tite2 large2"></div>
-                    <div className="tite2 large2"></div>
-                    <div className="tite2 med2"></div>
-                    <div className="tite2 small2"></div>
-                    <div className="tite2 med2"></div>
-                    <div className="tite2 med2"></div>
-                    <div className="tite2 small2"></div>
-                    <div className="tite2 small2"></div>
+                    <div className="tite large2"></div>
+                    <div className="tite small2"></div>
+                    <div className="tite xl2"></div>
+                    <div className="tite small2"></div>
+                    <div className="tite med2"></div>
+                    <div className="tite large2"></div>
+                    <div className="tite large2"></div>
+                    <div className="tite med2"></div>
+                    <div className="tite small2"></div>
+                    <div className="tite small2"></div>
+                    <div className="tite xl2"></div>
+                    <div className="tite large2"></div>
+                    <div className="tite large2"></div>
+                    <div className="tite med2"></div>
+                    <div className="tite small2"></div>
+                    <div className="tite med2"></div>
+                    <div className="tite med2"></div>
+                    <div className="tite small2"></div>
+                    <div className="tite small2"></div>
                 </div>
             </div>
 
 
             <div id="floor_left">
-                <div className="stone2">
-                    <div className="mite2 small4"></div>
-                </div>
-                <div className="stone1">
-
-                </div>
+                <div className="stone2"></div>
+                <div className="stone1"></div>
             </div>
 
         </div>
