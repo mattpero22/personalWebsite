@@ -9,7 +9,8 @@
 }
 
 .stone1 {
-    height: 25px;
+    height: 20px;
+    z-index: 3;
     width: 100%;
     display: flex;
     background-color: #6E8187;
@@ -17,27 +18,42 @@
 }
 
 .stone2 {
-    height: 15px;
+    height: 20px;
+    z-index: 2;
     width: 100%;
     display: flex;
     background-color: #5C6B70;
-    border-top: 1px solid #4a565a;
+    /* border-top: 1px solid #4a565a; */
 }
 
-.tite .mite {
+.tite1 {
+    position: relative;
+    border-bottom: 0px solid transparent;
+    border-top: 10vw solid #6E8187;
+    border-left: 5vw solid transparent;
+    border-right: 5vw solid transparent;
+}
+
+.mite1 {
+    position: relative;
     border-top: 0px solid transparent;
-    border-bottom: 5vw solid purple;
-    border-top: 1vw solid transparent;
-    border-top: 1vw solid transparent;
+    border-bottom: 10vw solid #6E8187;
+    border-left: 5vw solid transparent;
+    border-right: 5vw solid transparent;
 }
 
-.tite { transform: rotate(180deg);
+.tite2 {
+    position: relative;
+    border-bottom: 0px solid transparent;
+    border-top: 10vw solid #5C6B70;
+    border-left: 5vw solid transparent;
+    border-right: 5vw solid transparent;
 }
 
-.tite1 .mite1 {
-   border-bottom: 5vw solid #6E8187;
-}
-
-.tite2 .mite2 {
-    border-bottom: 5vw solid #5C6B70;
+.mite2 {
+    position: relative;
+    border-top: 0px solid transparent;
+    border-bottom: 10vw solid #5C6B70;
+    border-left: 5vw solid transparent;
+    border-right: 5vw solid transparent;
 }
