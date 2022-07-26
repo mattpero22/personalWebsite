@@ -16,11 +16,7 @@ const Home = () => {
                 <T> </T>
             </div>
             <Ground> </Ground>
-            <Cave> 
-                <div className="home-name" id="home-last">
-
-                </div>
-            </Cave>
+            <Cave> </Cave>
         </>
     )
 

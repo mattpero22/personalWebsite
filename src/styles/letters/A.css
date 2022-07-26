@@ -31,22 +31,30 @@
     border-left: 4.1vw solid transparent;
 }
 
+#outertent_trim {
+    z-index: 3;
+    right: 168.7%;
+    border-right: 3.9vw solid transparent;
+    border-bottom: 7vw solid #d1802f;
+    border-left: 3.9vw solid transparent;
+}
+
 #innertent {
-    z-index: 4;
+    z-index: 5;
 }
 
 .tent_open {
-    right: 159.9%;
-    border-right: 2.5vw solid transparent;
-    border-bottom: 4.5vw solid #FDCA40;
-    border-left: 2.5vw solid transparent;
+    right: 207.9%;
+    border-right: 2.3vw solid transparent;
+    border-bottom: 4.5vw solid #f2d071bc;
+    border-left: 2.3vw solid transparent;
     transition: 1s;
 }
 
 .tent_closed {
-    right: 145.3%;
+    right: 195%;
     border-right: .2vw solid transparent;
-    border-bottom: 4.5vw solid #C56F07;
+    border-bottom: 4.5vw solid #706c67;
     border-left: .2vw solid transparent;
     transition: 1s;
 }

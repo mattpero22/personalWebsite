@@ -17,6 +17,7 @@ const A = () => {
             <div className='tent' id='strings'></div>
             <div className='tent' id='airgap'></div>
             <div className='tent' id='outertent'></div>
+            <div className='tent' id='outertent_trim'></div>
             <div id='innertent' className={`tent ${tent}`}></div>
         </div>
     )
