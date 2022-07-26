@@ -4,27 +4,27 @@ const Cave = () => {
             <div id="roof">
                 <div className="stone1">
                     {/* left misc front*/}
-                    <div className="tite small"></div>
-                    <div className="tite med"></div>
-                    <div className="tite large"></div>
-                    <div className="tite xl"></div>
-                    <div className="tite med"></div>
-                    <div className="tite med"></div>
-                    <div className="tite small"></div>
-                    <div className="tite med"></div>
-                    <div className="tite large"></div>
-                    <div className="tite xl"></div>
-                    <div className="tite large"></div>
-                    <div className="tite med"></div>
-                    <div className="tite med"></div>
-                    <div className="tite small"></div>
-                    <div className="tite small"></div>
-                    <div className="tite med"></div>
-                    <div className="tite small"></div>
-                    <div className="tite large"></div>
-                    <div className="tite med"></div>
-                    <div className="tite small"></div>
-                    <div className="tite med"></div>
+                    <div className="tite small1"></div>
+                    <div className="tite med1"></div>
+                    <div className="tite large1"></div>
+                    <div className="tite xl1"></div>
+                    <div className="tite med1"></div>
+                    <div className="tite med1"></div>
+                    <div className="tite small1"></div>
+                    <div className="tite med1"></div>
+                    <div className="tite large1"></div>
+                    <div className="tite xl1"></div>
+                    <div className="tite large1"></div>
+                    <div className="tite med1"></div>
+                    <div className="tite med1"></div>
+                    <div className="tite small1"></div>
+                    <div className="tite small1"></div>
+                    <div className="tite med1"></div>
+                    <div className="tite small1"></div>
+                    <div className="tite large1"></div>
+                    <div className="tite med1"></div>
+                    <div className="tite small1"></div>
+                    <div className="tite med1"></div>
                     {/* P front */}
                     {/* LETTER */}
                     <div className="tite" id="p11"></div>
@@ -76,16 +76,68 @@ const Cave = () => {
                 </div>
             </div>
 
-            <div>
+            <div id="floor">
+                <div className="stone2">
+                    {/* blank space */}
+                    <div className="tite smallh"></div>
+                    <div className="tite medh"></div>
+                    <div className="tite largeh"></div>
+                    <div className="tite xlh"></div>
+                    <div className="tite medh"></div>
+                    <div className="tite medh"></div>
+                    <div className="tite smallh"></div>
+                    <div className="tite medh"></div>
+                    <div className="tite largeh"></div>
+                    <div className="tite xlh"></div>
+                    <div className="tite largeh"></div>
+                    <div className="tite medh"></div>
+                    <div className="tite medh"></div>
+                    <div className="tite smallh"></div>
+                    <div className="tite smallh"></div>
+                    <div className="tite medh"></div>
+                    <div className="tite smallh"></div>
+                    <div className="tite largeh"></div>
+                    <div className="tite smallh"></div>
+                    <div className="tite smallh"></div>
+                    <div className="tite medh"></div>
+                    {/* P back */}
+                    <div className="mite" id="p42"></div>
+                </div>
 
-            </div>
+                <div className="stone1">
+                    {/* blank space */}
+                    <div className="tite smallh"></div>
+                    <div className="tite medh"></div>
+                    <div className="tite largeh"></div>
+                    <div className="tite xlh"></div>
+                    <div className="tite medh"></div>
+                    <div className="tite medh"></div>
+                    <div className="tite smallh"></div>
+                    <div className="tite medh"></div>
+                    <div className="tite largeh"></div>
+                    <div className="tite xlh"></div>
+                    <div className="tite largeh"></div>
+                    <div className="tite medh"></div>
+                    <div className="tite medh"></div>
+                    <div className="tite smallh"></div>
+                    <div className="tite smallh"></div>
+                    <div className="tite medh"></div>
+                    <div className="tite smallh"></div>
+                    <div className="tite largeh"></div>
+                    <div className="tite smallh"></div>
+                    <div className="tite smallh"></div>
+                    <div className="tite smallh"></div>
+                    {/* P front */}
+                    <div className="mite" id="p32"></div>
+                    <div className="mite largeh"></div>
+                    <div className="mite" id="p31"></div>
+                    <div className="mite" id="p31"></div>
+                    <div className="mite" id="p31"></div>
+                    <div className="mite" id="p31"></div>
+                    <div className="mite" id="p31"></div>
+                    <div className="mite" id="p31"></div>
 
-
-
-
-            <div id="floor_left">
-                <div className="stone2"></div>
-                <div className="stone1"></div>
+                </div>
             </div>
 
         </div>

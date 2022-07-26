@@ -33,31 +33,29 @@
 .mite { 
     position: relative;
     z-index: inherit;
+    transform: rotate(180deg);
  }
 
-
-
-
-/* Stalactite sizes for stone 1 () and 2 (2) */
-.small {
+/* Stalactite sizes for stone 1 (1) and 2 (2) and hidden (h) */
+.small1 {
     border-top: 4.2vw solid #6E8187;
     border-left: .3vw solid transparent;
     border-right: .3vw solid transparent;
 }
 
-.med {
+.med1 {
     border-top: 6vw solid #6E8187;
     border-left: .5vw solid transparent;
     border-right: .5vw solid transparent;
 }
 
-.large {
+.large1 {
     border-top: 7.8vw solid #6E8187;
     border-left: .82vw solid transparent;
     border-right: .82vw solid transparent;
 }
 
-.xl {
+.xl1 {
     border-top: 10vw solid #6E8187;
     border-left: 1vw solid transparent;
     border-right: 1vw solid transparent;
@@ -87,24 +85,29 @@
     border-right: 1vw solid transparent;
 }
 
-/* Stalagmite sizes and shift for stone 1 (3) and 2 (4) */
-/* .med3 {
-    border-bottom: 6vw solid #6E8187;
+.smallh {
+    border-top: 3.9vw solid transparent;
+    border-left: .4vw solid transparent;
+    border-right: .4vw solid transparent;
+}
+
+.medh {
+    border-top: 5.5vw solid transparent;
     border-left: .5vw solid transparent;
     border-right: .5vw solid transparent;
 }
 
-.large3 {
-    border-top: 7.8vw solid #6E8187;
+.largeh {
+    border-top: 7.2vw solid transparent;
     border-left: .82vw solid transparent;
     border-right: .82vw solid transparent;
 }
 
-.xl3 {
-    border-top: 10vw solid #6E8187;
+.xlh {
+    border-top: 8.888vw solid transparent;
     border-left: 1vw solid transparent;
     border-right: 1vw solid transparent;
-}  */
+}
 
 #p11 {
     border-top: 16vw solid #6E8187;
@@ -161,6 +164,70 @@
 }
 
 #p25 {
+    border-top: 15vw solid #5C6B70;
+    border-left: 1vw solid transparent;
+    border-right: 1vw solid transparent;
+}
+
+#p31 {
+    border-top: 9vw solid #6E8187;
+    border-left: 1vw solid transparent;
+    border-right: 1vw solid transparent;
+    top:-8vw;
+}
+
+#p32 {
+    border-top: 3.3vw solid #6E8187;
+    border-left: .2vw solid transparent;
+    border-right: .2vw solid transparent;
+    top: -2.2vw;
+}
+
+#p33 {
+    border-top: 3.75vw solid #6E8187;
+    border-left: .5vw solid transparent;
+    border-right: .5vw solid transparent;
+}
+
+#p34 {
+    border-top: 12vw solid #6E8187;
+    border-left: .8vw solid transparent;
+    border-right: .8vw solid transparent;
+}
+
+#p35 {
+    border-top: 15vw solid #6E8187;
+    border-left: 1vw solid transparent;
+    border-right: 1vw solid transparent;
+}
+
+#p41 {
+    border-top: 11vw solid #5C6B70;
+    border-left: 1vw solid transparent;
+    border-right: 1vw solid transparent;
+    top:-10vw;
+}
+
+#p42 {
+    border-top: 3vw solid #5C6B70;
+    border-left: .2vw solid transparent;
+    border-right: .2vw solid transparent;
+    top: -2vw;
+}
+
+#p43 {
+    border-top: 3.75vw solid #5C6B70;
+    border-left: .5vw solid transparent;
+    border-right: .5vw solid transparent;
+}
+
+#p44 {
+    border-top: 12vw solid #5C6B70;
+    border-left: .8vw solid transparent;
+    border-right: .8vw solid transparent;
+}
+
+#p45 {
     border-top: 15vw solid #5C6B70;
     border-left: 1vw solid transparent;
     border-right: 1vw solid transparent;
