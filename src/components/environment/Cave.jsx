@@ -51,7 +51,7 @@ const Cave = () => {
 
             <div id="floor_left">
                 <div className="stone2">
-                    <div className="mite1"></div>
+                    <div className="mite2 small4"></div>
                 </div>
                 <div className="stone1">
 
