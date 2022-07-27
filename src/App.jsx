@@ -9,6 +9,7 @@ import './styles/App.css';
 import './styles/Header.css';
 import './styles/Footer.css';
 import './styles/Home.css';
+import './styles/About.css';
 import './styles/letters/M.css';
 import './styles/letters/A.css';
 import './styles/letters/T.css';
@@ -20,7 +21,9 @@ function App() {
   return (
     <div className='App'>
       <Header> </Header>
-      <Main> </Main>
+      <Routes>
+        <Route path="/" element={<Main/>} />
+      </Routes> 
       <Footer> </Footer>
     </div>
   );
