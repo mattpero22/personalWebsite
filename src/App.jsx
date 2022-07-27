@@ -1,5 +1,5 @@
 import React from 'react';
-import {Routes, Route} from "react-router-dom";
+import { Route } from 'react-router-dom';
 // components / pages
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -20,11 +20,11 @@ import './styles/environment/Cave.css';
 function App() {
   return (
     <div className='App'>
-      <Header> </Header>
-      <Routes>
-        <Route path="/" element={<Main/>} />
-      </Routes> 
-      <Footer> </Footer>
+      <Header />
+      <Route exact path="/">
+        <Main />
+      </Route>
+      <Footer />
     </div>
   );
 }
