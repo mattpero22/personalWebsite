@@ -93,21 +93,6 @@ const Cave = () => {
                     <div className="tite xl1"></div>
                     <div className="tite med1"></div>
                     <div className="tite med1"></div>
-                    <div className="tite small1"></div>
-                    <div className="tite med1"></div>
-                    <div className="tite large1"></div>
-                    <div className="tite xl1"></div>
-                    <div className="tite large1"></div>
-                    <div className="tite med1"></div>
-                    <div className="tite med1"></div>
-                    <div className="tite small1"></div>
-                    <div className="tite small1"></div>
-                    <div className="tite med1"></div>
-                    <div className="tite small1"></div>
-                    <div className="tite large1"></div>
-                    <div className="tite med1"></div>
-                    <div className="tite small1"></div>
-                    <div className="tite med1"></div>
                 </div>
                 <div className="stone2">
                     <div className="tite large2"></div>
@@ -189,22 +174,6 @@ const Cave = () => {
                     <div className="tite large2"></div>
                     <div className="tite small2"></div>
                     <div className="tite xl2"></div>
-                    <div className="tite small2"></div>
-                    <div className="tite med2"></div>
-                    <div className="tite large2"></div>
-                    <div className="tite large2"></div>
-                    <div className="tite med2"></div>
-                    <div className="tite small2"></div>
-                    <div className="tite small2"></div>
-                    <div className="tite xl2"></div>
-                    <div className="tite large2"></div>
-                    <div className="tite large2"></div>
-                    <div className="tite med2"></div>
-                    <div className="tite small2"></div>
-                    <div className="tite med2"></div>
-                    <div className="tite med2"></div>
-                    <div className="tite small2"></div>
-                    <div className="tite small2"></div>
                 </div>
             </div>
 
