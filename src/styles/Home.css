@@ -8,7 +8,10 @@
     width: 79vw;
     justify-content: center;
     margin: auto;
-    padding-top: 5vw;
+}
+
+#home-first {
+    padding-top: 10vw;
 }
 
 .letter {

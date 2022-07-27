@@ -7,6 +7,7 @@ import Main from './components/Main';
 // stylesheets
 import './styles/App.css';
 import './styles/Header.css';
+import './styles/Sidebar.css';
 import './styles/Footer.css';
 import './styles/Home.css';
 import './styles/About.css';

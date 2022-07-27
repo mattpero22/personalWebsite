@@ -1,4 +1,6 @@
 .About {
-    background-color: blueviolet;
-    height: 150vh;
+    background-color: #6E8087;
+    height: 100vh;
+    display: flex;
+    align-items: center;
 }
