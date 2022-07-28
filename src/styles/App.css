@@ -24,3 +24,10 @@
     font-family: 'mont-l';
     color: rgb(245, 245, 245);
 }
+
+.hover_animate:hover {
+    transition: .5s;
+    background-color: #1C2022;
+    border: 2px solid #4E3C68;
+    box-shadow: #3D314A 3px 3px;
+}
