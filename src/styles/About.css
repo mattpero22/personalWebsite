@@ -25,7 +25,7 @@
 #headshot > img {
     width: 300px;
     border-radius: 10%;
-    border:2px solid #5C6B70;
+    border: 2px solid #5C6B70;
 }
 
 #bio {
@@ -34,12 +34,28 @@
     align-items: flex-start;
 }
 
+#bio > h2 {
+    font-size: 36px;
+}
+
 .interest {
     display: flex;
     align-items: center;
     height: 45px;
+    margin: 10px;
 }
 
 .interest > img {
     margin-right: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #3D314A;
+    border: 2px solid #6E8087;
+}
+
+.hover_animate:hover {
+    transition: .5s;
+    background-color: #1C2022;
+    border: 2px solid #4E3C68;
+    box-shadow: #3D314A 3px 3px;
 }
