@@ -27,3 +27,19 @@
     border-radius: 10%;
     border:2px solid #5C6B70;
 }
+
+#bio {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.interest {
+    display: flex;
+    align-items: center;
+    height: 45px;
+}
+
+.interest > img {
+    margin-right: 15px;
+}
