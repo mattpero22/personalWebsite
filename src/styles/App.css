@@ -31,3 +31,7 @@ body {
     border: 2px solid #4E3C68;
     box-shadow: #3D314A 3px 3px;
 }
+
+h2 {
+    font-size: 36px;
+}

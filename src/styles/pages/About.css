@@ -33,10 +33,6 @@
     align-items: flex-start;
 }
 
-#bio > h2 {
-    font-size: 36px;
-}
-
 .interest {
     display: flex;
     align-items: center;
