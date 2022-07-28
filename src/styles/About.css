@@ -1,6 +1,29 @@
 .About {
-    background-color: #6E8087;
+    background-color: #404B4F;
     height: 100vh;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+.about_content {
+    width: 80%;
+    height: 94%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 5px solid #5C6B70;
+    margin: 20px;
+}
+
+#headshot {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+#headshot > img {
+    width: 300px;
+    border-radius: 10%;
+    border:2px solid #5C6B70;
 }
