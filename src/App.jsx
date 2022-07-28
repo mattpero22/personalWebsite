@@ -10,6 +10,8 @@ import './styles/App.css';
 import './styles/pages/Home.css';
 import './styles/pages/About.css';
 import './styles/pages/Skills.css';
+import './styles/pages/Projects.css';
+import './styles/pages/Contact.css';
 import './styles/components/Header.css';
 import './styles/components/Sidebar.css';
 import './styles/components/Footer.css';
