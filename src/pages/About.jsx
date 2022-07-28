@@ -1,9 +1,6 @@
-import Sidebar from '../components/Sidebar'
-
 const About = () => {
     return (
         <div className="About" id="about">
-            <Sidebar> </Sidebar>
             <div className='about_content'>
                 <div id="headshot">
                     <img src="https://i.imgur.com/q42XMfv.png" alt="headshot"></img>
@@ -28,7 +25,6 @@ const About = () => {
                     </ul>
                 </div>
             </div>
-            <Sidebar> </Sidebar>
         </div>
     )
 }

@@ -20,7 +20,7 @@
     z-index: 2;
     right: 61.8%;
     border-right: 4.8vw solid transparent;
-    border-bottom: 8vw solid #b8bee5;
+    border-bottom: 8vw solid rgb(231, 160, 113);
     border-left: 4.8vw solid transparent;
 }
 
@@ -46,7 +46,7 @@
 .tent_open {
     right: 207.9%;
     border-right: 2.3vw solid transparent;
-    border-bottom: 4.5vw solid #f2d071bc;
+    border-bottom: 4.5vw solid #f2d071d9;
     border-left: 2.3vw solid transparent;
     transition: 1s;
 }
