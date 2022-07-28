@@ -1,8 +1,3 @@
-@font-face {
-    font-family: 'mont-h';
-    src: url('../static/Mont-heavy.otf');
-}
-
 .home-name {
     display: flex;
     width: 79vw;

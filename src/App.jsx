@@ -7,17 +7,17 @@ import Main from './components/Main';
 // stylesheets
 import './styles/Main.css';
 import './styles/App.css';
-import './styles/Header.css';
-import './styles/Sidebar.css';
-import './styles/Footer.css';
-import './styles/Home.css';
-import './styles/About.css';
-import './styles/Skills.css';
-import './styles/letters/M.css';
-import './styles/letters/A.css';
-import './styles/letters/T.css';
-import './styles/environment/Ground.css';
-import './styles/environment/Cave.css';
+import './styles/pages/Home.css';
+import './styles/pages/About.css';
+import './styles/pages/Skills.css';
+import './styles/components/Header.css';
+import './styles/components/Sidebar.css';
+import './styles/components/Footer.css';
+import './styles/components/letters/M.css';
+import './styles/components/letters/A.css';
+import './styles/components/letters/T.css';
+import './styles/components/environment/Ground.css';
+import './styles/components/environment/Cave.css';
 
 
 function App() {
