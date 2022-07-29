@@ -32,6 +32,13 @@ body {
     box-shadow: #3D314A 3px 3px;
 }
 
+.hover_animate:active {
+    transition: .5s;
+    background-color: #1C2022;
+    border: 2px solid #4E3C68;
+    box-shadow: #3D314A 3px 3px;
+}
+
 h2 {
     font-size: 36px;
 }

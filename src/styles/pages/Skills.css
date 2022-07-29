@@ -35,9 +35,19 @@
     transition: .25s;
     height: 64px;
     width: 64px;
+    padding: 8px;
 }
 
 .skill_icon:hover {
     transition: .25s;
     transform: scale(1.25);
+}
+
+.skill_icon:active {
+    transform: scale(1.25);
+}
+
+#pandas {
+    background-color: whitesmoke;
+    border-radius: 50%;
 }
