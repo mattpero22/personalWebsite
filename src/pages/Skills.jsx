@@ -21,7 +21,11 @@ const Skills = () => {
                         <img className="skill_icon" src="https://i.imgur.com/BX4UdjY.png" alt="express.js"/>
                         <img className="skill_icon" src="https://i.imgur.com/5xk8xhR.png" alt="mongodb"/>
                         <img className="skill_icon" src="https://i.imgur.com/gQMAhsd.png" alt="jquery"/>
-                        <img className="skill_icon" id="pandas" src="https://pandas.pydata.org/static/img/pandas_secondary.svg" alt="pandas"/>
+                        <img className="skill_icon contrast" src="https://pandas.pydata.org/static/img/pandas_secondary.svg" alt="pandas"/>
+                        <img className="skill_icon" src="https://i.imgur.com/JyDaA3s.png" alt="openpyxl"/>
+                        <img className="skill_icon" src="https://i.imgur.com/RWlPK3i.png" alt="matplotlib"/>
+                        <img className="skill_icon contrast" src="https://user-images.githubusercontent.com/67586773/105040771-43887300-5a88-11eb-9f01-bee100b9ef22.png" alt="numpy"/>
+                        <img className="skill_icon" src="https://scipy.org/images/logo.svg" alt="scipy"/>
                     </div>
                 <h3>Software</h3>
                     <div className="skill_icons">
