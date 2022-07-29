@@ -1,6 +1,43 @@
 .Skills {
     height: 100vh;
+    width: 80vw;
     display: flex;
-    align-items: flex-start;
     justify-content: center;
+    align-items: center;
+}
+
+.skills_content {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills_content > h2 {
+    align-self: flex-start;
+    margin-left: 10%;
+}
+
+.skill_icons {
+    width: 75%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #c7cfd1ce;
+    padding: 20px;
+    border-radius: 25px;
+    border: 2px solid #6E8087;
+    
+}
+
+.skill_icon {
+    transition: .25s;
+    height: 64px;
+    width: 64px;
+}
+
+.skill_icon:hover {
+    transition: .25s;
+    transform: scale(1.25);
 }
