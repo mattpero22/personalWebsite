@@ -1,4 +1,13 @@
+import { useState } from 'react';
+
 const Skills = () => {
+
+    const [ info, setInfo ] = useState(null)
+
+    const handleInfoDisplay = () => {
+        setInfo()
+    }
+
     return (
         <div className="Skills" id="skills">
             <div className="skills_content">
@@ -29,7 +38,7 @@ const Skills = () => {
                     </div>
                 <h3>Software</h3>
                     <div className="skill_icons">
-                        
+                        <img className="skill_icon" src="https://i.imgur.com/04j7fLZ.png" alt="scipy"/>
                     </div>
 
             </div>
