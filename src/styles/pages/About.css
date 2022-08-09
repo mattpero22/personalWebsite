@@ -1,0 +1,54 @@
+.About {
+    height: 100vh;
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about_content {
+    width: 80%;
+    height: 94%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+
+#headshot {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+#headshot > img {
+    width: 300px;
+    border-radius: 10%;
+    border: 2px solid #6E8087;
+}
+
+#bio {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#bio > h2 {
+    font-size: 36px;
+}
+
+.interest {
+    display: flex;
+    align-items: center;
+    height: 45px;
+    margin: 10px;
+}
+
+.interest > img {
+    transition: .5s;
+    margin-right: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #3D314A;
+    border: 2px solid #6E8087;
+}

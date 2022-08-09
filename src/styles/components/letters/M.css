@@ -1,0 +1,47 @@
+#M {
+    color: grey;
+    display: flex;
+    margin-right: 35px;
+}
+
+.mtn {
+    position: relative;
+    border-top: 0px solid transparent;
+    border-right: 5vw solid transparent;
+    border-bottom: 13vw solid #6E8087;
+    border-left: 5vw solid transparent;
+}
+
+#mtn1 {
+    z-index: 1;
+}
+
+#mtn1sub {
+    z-index: 2;
+    border-right: 3vw solid transparent;
+    border-bottom: 8.5vw solid #5d6b71;
+    border-left: 3vw solid transparent;
+    right: 50%;
+}
+
+#shadow{
+    z-index: 2;
+    border-bottom: 12.9vw solid #505c61;
+    border-right: 4.8vw solid transparent;
+    right: 61%;
+
+}
+
+#mtn2 {
+    z-index: 3;
+    border-bottom: 13vw solid #6E8087;
+    right: 122.3%;
+}
+
+#mtn2sub {
+    z-index: 4;
+    border-right: 3vw solid transparent;
+    border-bottom: 8.5vw solid #5d6b71;
+    border-left: 3vw solid transparent;
+    right: 173%;
+}

@@ -1,0 +1,16 @@
+.ground {
+    height: 15px;
+    width: 100vw;
+}
+
+.grass1 {
+    border-top: solid 1px #577140 ;
+    background-color: #6e8e53;
+}
+.grass2 { background-color: #69874c; }
+
+.dirt1 {
+    border-top: solid 1px #876532 ;
+    background-color: #946F38;
+}
+.dirt2 { background-color: #7d5f32; }

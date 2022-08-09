@@ -1,6 +1,8 @@
 const Footer = () => {
     return (
-        <p>Footer</p>
+        <ul className="Footer">
+            <li>© Matthew Pero 2022</li>
+        </ul>
     );
 }
 

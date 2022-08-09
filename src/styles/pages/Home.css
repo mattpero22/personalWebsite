@@ -1,34 +1,21 @@
 .home-name {
     display: flex;
-    font-size: 15vw;
-    margin: 10px;
-    width: 80%;
-    justify-content: space-evenly;
+    width: 79vw;
+    justify-content: center;
+    margin: auto;
+}
+
+#home-first {
+    padding-top: 10vw;
+    padding-left: 10.5vw;
+    padding-right: 10.5vw;
+    background: linear-gradient(180deg, rgba(207,237,249,1) 8%, rgba(216,240,239,1) 13%, rgba(239,246,214,1) 26%, rgba(233,194,150,1) 54%, rgba(235,155,100,1) 100%);
 }
 
 .letter {
     min-height: 100px;
     width: 20%;
-}
-
-#T2 {
-    color: green
-}
-
-#P {
-    color: purple;
-}
-
-#E {
-    color: dodgerblue;
-}
-
-#R {
-    color: slateblue;
-}
-
-#O {
-    color: black;
+    font-family: 'mont-h';
 }
 
 @media screen and ( max-width: 600px ) {

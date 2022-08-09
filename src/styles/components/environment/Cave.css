@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'rocksol';
+    src: url(/src/static/JFRocSol.TTF);
+}
+
+.cave {
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100vw;
+    height: 20vw;
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(49,56,59,1) 34%, rgba(64,75,79,1) 68%, rgba(75,87,92,1) 87%);
+}
+
+#home-last {
+    margin: auto;
+    margin-bottom: 0px;
+    font-size: 10vw;
+    font-family: 'rocksol';
+    position: relative;
+    top:2vw;
+    color: #6E8187;
+    text-shadow:#5C6B70 10px 10px 2px;
+    
+}
+
+.stone1 {
+    height: 20px;
+    z-index: 3;
+    width: 100%;
+    display: flex;
+    background-color: #6E8187;
+    border-top: 1px solid #58666b;
+}
+
+.stone2 {
+    height: 20px;
+    z-index: 2;
+    width: 100%;
+    display: flex;
+    background-color: #5C6B70;
+}
+
+.tite {
+    position: relative;
+    z-index: inherit;
+}
+
+.mite { 
+    position: relative;
+    z-index: inherit;
+    transform: rotate(180deg);
+ }
+
+/* Stalactite sizes for stone 1 (1) and 2 (2) and hidden (h) */
+.small1 {
+    border-top: 4.2vw solid #6E8187;
+    border-left: .3vw solid transparent;
+    border-right: .3vw solid transparent;
+}
+
+.med1 {
+    border-top: 6vw solid #6E8187;
+    border-left: .5vw solid transparent;
+    border-right: .5vw solid transparent;
+}
+
+.large1 {
+    border-top: 7.8vw solid #6E8187;
+    border-left: .82vw solid transparent;
+    border-right: .82vw solid transparent;
+}
+
+.xl1 {
+    border-top: 10vw solid #6E8187;
+    border-left: 1vw solid transparent;
+    border-right: 1vw solid transparent;
+}
+
+.small2 {
+    border-top: 3.9vw solid #5C6B70;
+    border-left: .4vw solid transparent;
+    border-right: .4vw solid transparent;
+}
+
+.med2 {
+    border-top: 5.5vw solid #5C6B70;
+    border-left: .5vw solid transparent;
+    border-right: .5vw solid transparent;
+}
+
+.large2 {
+    border-top: 7.2vw solid #5C6B70;
+    border-left: .82vw solid transparent;
+    border-right: .82vw solid transparent;
+}
+
+.xl2 {
+    border-top: 8.888vw solid #5C6B70;
+    border-left: 1vw solid transparent;
+    border-right: 1vw solid transparent;
+}

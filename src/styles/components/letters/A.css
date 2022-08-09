@@ -1,0 +1,60 @@
+#A {
+    display: flex;
+    width: 20%;
+}
+
+.tent {
+    position: relative;
+    border-top: 0px solid transparent;
+    border-right: 5vw solid transparent;
+    border-bottom: 8vw solid #3D314A;
+    border-left: 5vw solid transparent;
+}
+
+#strings {
+    z-index: 1;
+    border-bottom: 8vw solid #3B2102;
+}
+
+#airgap {
+    z-index: 2;
+    right: 61.8%;
+    border-right: 4.8vw solid transparent;
+    border-bottom: 8vw solid rgb(231, 160, 113);
+    border-left: 4.8vw solid transparent;
+}
+
+#outertent {
+    z-index: 3;
+    right: 118.2%;
+    border-right: 4.1vw solid transparent;
+    border-left: 4.1vw solid transparent;
+}
+
+#outertent_trim {
+    z-index: 3;
+    right: 168.7%;
+    border-right: 3.9vw solid transparent;
+    border-bottom: 7vw solid #4E3C68;
+    border-left: 3.9vw solid transparent;
+}
+
+#innertent {
+    z-index: 5;
+}
+
+.tent_open {
+    right: 207.9%;
+    border-right: 2.3vw solid transparent;
+    border-bottom: 4.5vw solid #f2d071d9;
+    border-left: 2.3vw solid transparent;
+    transition: 1s;
+}
+
+.tent_closed {
+    right: 195%;
+    border-right: .2vw solid transparent;
+    border-bottom: 4.5vw solid #706c67;
+    border-left: .2vw solid transparent;
+    transition: 1s;
+}

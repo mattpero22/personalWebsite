@@ -1,0 +1,22 @@
+.Header {
+    z-index: 10;
+    position: fixed;
+    top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    height: 40px;
+    min-width: 400px;
+
+}
+
+.header_link {
+    padding: 10px;
+    transition: .5s;
+    margin-right: 15px;
+    border-radius: 25%;
+    background-color: #3D314A;
+    border: 2px solid #6E8087;
+    text-decoration: none;
+}
