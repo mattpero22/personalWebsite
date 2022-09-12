@@ -43,10 +43,6 @@
     transform: scale(1.25);
 }
 
-.skill_icon:active {
-    transform: scale(1.25);
-}
-
 .contrast {
     background-color: whitesmoke;
     padding: 4px;

@@ -1,12 +1,9 @@
 import { useState } from 'react';
+import ReactTooltip from 'react-tooltip';
 
 const Skills = () => {
 
-    const [ info, setInfo ] = useState(null)
-
-    const handleInfoDisplay = () => {
-        setInfo()
-    }
+    const [tooltip, showTooltip] = useState(true);
 
     return (
         <div className="Skills" id="skills">
@@ -14,8 +11,34 @@ const Skills = () => {
                 <h2>My Skills</h2>
                 <h3>Languages</h3>
                     <div className="skill_icons">
-                        <img className="skill_icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" alt="python"/>
-                        <img className="skill_icon" src="https://i.imgur.com/0DeXqd6.png" alt="html"/>
+                        <>
+                        {tooltip && <ReactTooltip effect="solid" />}
+                            <img 
+                            className="skill_icon" 
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" 
+                            alt="python" 
+                            data-tip="Python"
+                            onMouseEnter={() => showTooltip(true)}
+                            onMouseLeave={() => {
+                                  showTooltip(false);
+                                  setTimeout(() => showTooltip(true), 50);
+                                }}
+                            />
+                        </>
+                        <>
+                        {tooltip && <ReactTooltip effect="solid" />}
+                            <img 
+                            className="skill_icon" 
+                            src="https://i.imgur.com/0DeXqd6.png" 
+                            alt="html" 
+                            data-tip="HTML"
+                            onMouseEnter={() => showTooltip(true)}
+                            onMouseLeave={() => {
+                                  showTooltip(false);
+                                  setTimeout(() => showTooltip(true), 50);
+                                }}
+                            />
+                        </>     
                         <img className="skill_icon" src="https://i.imgur.com/gyNinVG.png" alt="css"/>
                         <img className="skill_icon" src="https://i.imgur.com/w5Y6YND.png" alt="javascript"/>
                         <img className="skill_icon" src="https://i.imgur.com/YvPtI2n.png" alt="sql"/>
