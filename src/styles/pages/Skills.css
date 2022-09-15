@@ -36,6 +36,7 @@
     height: 64px;
     width: 64px;
     padding: 8px;
+    margin: 10px;
 }
 
 .skill_icon:hover {
@@ -43,12 +44,12 @@
     transform: scale(1.25);
 }
 
-.skill_icon:active {
-    transform: scale(1.25);
-}
-
 .contrast {
     background-color: whitesmoke;
     padding: 4px;
     border-radius: 45%;
+}
+
+.wide {
+    width: 100px;
 }

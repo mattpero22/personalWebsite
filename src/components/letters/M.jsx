@@ -1,8 +1,12 @@
+<<<<<<< HEAD
 // import {useState} from 'react';
 
 const M = () => {
     
     // const [ mountainState, setMountainState ] = useState(null);
+=======
+const M = () => {
+>>>>>>> dev
 
     return (
         <div className="letter" id="M">

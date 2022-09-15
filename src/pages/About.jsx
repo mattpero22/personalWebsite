@@ -3,7 +3,7 @@ const About = () => {
         <div className="About" id="about">
             <div className='about_content'>
                 <div id="headshot">
-                    <img src="https://i.imgur.com/q42XMfv.png" alt="headshot"></img>
+                    <img src="https://i.imgur.com/PjKN4sJ.jpg" alt="headshot"></img>
                 </div>
                 <div id="bio">
                     <h2>Hi. I'm Matt Pero. </h2>
