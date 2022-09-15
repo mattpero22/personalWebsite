@@ -49,3 +49,7 @@
     padding: 4px;
     border-radius: 45%;
 }
+
+.wide {
+    width: 100px;
+}

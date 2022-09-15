@@ -5,6 +5,9 @@ const Skills = () => {
 
     const [tooltip, showTooltip] = useState(true);
 
+// TODO: make static folder of images instead of links to other pages
+// TODO: make custom obj for adding the tooltip to my icons to make code more DRY
+
     return (
         <div className="Skills" id="skills">
             <div className="skills_content">
@@ -282,9 +285,134 @@ const Skills = () => {
                                   setTimeout(() => showTooltip(true), 0);
                                 }}
                             />
-                        </>
+                    </>
+                    <>
+                        {tooltip && <ReactTooltip effect="solid" />}
+                            <img 
+                            className="skill_icon" 
+                            src="https://i.imgur.com/eazaTSt.png"
+                            alt="github"
+                            data-tip="GitHub"
+                            onMouseEnter={() => showTooltip(true)}
+                            onMouseLeave={() => {
+                                  showTooltip(false);
+                                  setTimeout(() => showTooltip(true), 0);
+                                }}
+                            />
+                    </>
+                    <>
+                        {tooltip && <ReactTooltip effect="solid" />}
+                            <img 
+                            className="skill_icon" 
+                            src="https://i.imgur.com/0yFrtO9.png"
+                            alt="heroku"
+                            data-tip="Heroku"
+                            onMouseEnter={() => showTooltip(true)}
+                            onMouseLeave={() => {
+                                  showTooltip(false);
+                                  setTimeout(() => showTooltip(true), 0);
+                                }}
+                            />
+                    </>
+                    <>
+                        {tooltip && <ReactTooltip effect="solid" />}
+                            <img 
+                            className="skill_icon contrast" 
+                            src="https://i.imgur.com/qd5idq2.png"
+                            alt="netlify"
+                            data-tip="Netlify"
+                            onMouseEnter={() => showTooltip(true)}
+                            onMouseLeave={() => {
+                                  showTooltip(false);
+                                  setTimeout(() => showTooltip(true), 0);
+                                }}
+                            />
+                    </>
+                    <>
+                        {tooltip && <ReactTooltip effect="solid" />}
+                            <img 
+                            className="skill_icon wide" 
+                            src="https://i.imgur.com/0Z1gOqA.png"
+                            alt="word"
+                            data-tip="Microsoft Word"
+                            onMouseEnter={() => showTooltip(true)}
+                            onMouseLeave={() => {
+                                  showTooltip(false);
+                                  setTimeout(() => showTooltip(true), 0);
+                                }}
+                            />
+                    </>
+                    <>
+                        {tooltip && <ReactTooltip effect="solid" />}
+                            <img 
+                            className="skill_icon wide" 
+                            src="https://i.imgur.com/47ZD5iM.png"
+                            alt="word"
+                            data-tip="Microsoft Excel"
+                            onMouseEnter={() => showTooltip(true)}
+                            onMouseLeave={() => {
+                                  showTooltip(false);
+                                  setTimeout(() => showTooltip(true), 0);
+                                }}
+                            />
+                    </>
+                    <>
+                        {tooltip && <ReactTooltip effect="solid" />}
+                            <img 
+                            className="skill_icon" 
+                            src="https://i.imgur.com/c6gB1ET.png"
+                            alt="vscode"
+                            data-tip="VS Code"
+                            onMouseEnter={() => showTooltip(true)}
+                            onMouseLeave={() => {
+                                  showTooltip(false);
+                                  setTimeout(() => showTooltip(true), 0);
+                                }}
+                            />
+                    </>
+                    <>
+                        {tooltip && <ReactTooltip effect="solid" />}
+                            <img 
+                            className="skill_icon" 
+                            src="https://i.imgur.com/J8tFOCK.png"
+                            alt="pycharm"
+                            data-tip="PyCharm"
+                            onMouseEnter={() => showTooltip(true)}
+                            onMouseLeave={() => {
+                                  showTooltip(false);
+                                  setTimeout(() => showTooltip(true), 0);
+                                }}
+                            />
+                    </>
+                    <>
+                        {tooltip && <ReactTooltip effect="solid" />}
+                            <img 
+                            className="skill_icon" 
+                            src="https://i.imgur.com/IQ9noEO.png"
+                            alt="solidworks"
+                            data-tip="Solidworks"
+                            onMouseEnter={() => showTooltip(true)}
+                            onMouseLeave={() => {
+                                  showTooltip(false);
+                                  setTimeout(() => showTooltip(true), 0);
+                                }}
+                            />
+                    </>
+                    <>
+                        {tooltip && <ReactTooltip effect="solid" />}
+                            <img 
+                            className="skill_icon" 
+                            src="https://i.imgur.com/ezcbmBT.png"
+                            alt="fusion"
+                            data-tip="Fusion 360"
+                            onMouseEnter={() => showTooltip(true)}
+                            onMouseLeave={() => {
+                                  showTooltip(false);
+                                  setTimeout(() => showTooltip(true), 0);
+                                }}
+                            />
+                    </>
                     </div>
-
             </div>
         </div>
     )
