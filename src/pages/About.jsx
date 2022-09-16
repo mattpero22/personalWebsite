@@ -23,6 +23,7 @@ const About = () => {
                             <h4>Control Systems</h4>
                         </div>
                     </ul>
+                    <h3>When I'm not coding you can probably find me hiking, swimming, or camping!</h3>
                 </div>
             </div>
         </div>
