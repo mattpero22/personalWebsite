@@ -15,7 +15,6 @@ const Main = () => {
                     <About> </About>
                     <Skills> </Skills>
                     <Projects> </Projects>
-                    <Contact> </Contact>
                 </div>
                 <Sidebar> </Sidebar>
             </div>

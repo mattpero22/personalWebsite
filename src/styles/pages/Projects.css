@@ -4,3 +4,21 @@
     align-items: flex-start;
     justify-content: center;
 }
+
+.projects_content {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projects_content > h2 {
+    align-self: flex-start;
+    margin-left: 10%;
+}
+
+.project_card {
+    width: 30%;
+    height: 10%;
+    background-color: blue;
+}
