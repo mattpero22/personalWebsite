@@ -17,6 +17,7 @@
 .skills_content > h2 {
     align-self: flex-start;
     margin-left: 10%;
+    padding-top: 100px;
 }
 
 .skill_icons {

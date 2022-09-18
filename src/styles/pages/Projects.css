@@ -1,24 +1,56 @@
 .Projects {
-    height: 100vh;
     display: flex;
     align-items: flex-start;
     justify-content: center;
+    padding: 5% 0%;
 }
 
 .projects_content {
     width: 80%;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .projects_content > h2 {
     align-self: flex-start;
     margin-left: 10%;
+    margin-top: 0px;
+    padding-top: 75px;
 }
 
 .project_card {
-    width: 30%;
+    width: 40%;
     height: 10%;
-    background-color: blue;
+    background-color: #c7cfd1ce;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    border-radius: 25px;
+    border: 2px solid #6E8087;
+}
+
+.alt_align {
+    align-self: flex-end;
+}
+
+.project_card > h3 {
+    align-self: center;
+    padding: 3px 25px;
+}
+
+.project_thumbnail {
+    width: 50%;
+    min-width: 350px;
+}
+
+.project_buttons {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.project_button {
+    padding: 10px;
+    width: 30%;
+    color: rgb(245, 245, 245);
 }
