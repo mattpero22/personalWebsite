@@ -8,7 +8,9 @@ const Projects = () => {
                 <div className='project'>
                     <div className="project_card">
                         <h3 className="project_title header_link">P3 Password Manager</h3>
-                        <img className="project_thumbnail" src='https://i.imgur.com/pLnrklh.png'></img>
+                        <a href="https://p3protector.herokuapp.com/" target="_blank">
+                            <img className="project_thumbnail" src='https://i.imgur.com/pLnrklh.png'></img>
+                        </a>
                         <div className="project_buttons">
                             <a className='project_button hover_animate header_link'>About</a>
                             <a className='project_button hover_animate header_link'>Github</a>
@@ -27,7 +29,9 @@ const Projects = () => {
                     </div>
                     <div className="project_card alt_align">
                         <h3 className="project_title header_link">Pokemon Auto Battler</h3>
-                        <img className="project_thumbnail" src='https://i.imgur.com/WP1B1y5.png'></img>
+                        <a href="https://mattpero22.github.io/pokemonAutoBattler/" target="_blank">
+                            <img className="project_thumbnail" src='https://i.imgur.com/WP1B1y5.png'></img>
+                        </a>
                         <div className="project_buttons">
                             <a className='project_button hover_animate header_link'>Github</a>
                         </div>
@@ -35,9 +39,13 @@ const Projects = () => {
                 </div>
 
                 <div className='project'>
+
+                    
                     <div className="project_card">
                         <h3 className="project_title header_link">General Store</h3>
-                        <img className="project_thumbnail" src='https://i.imgur.com/sEEA3ab.png'></img>
+                        <a href="https://generalstoregs.netlify.app/" target="_blank">
+                            <img className="project_thumbnail" src='https://i.imgur.com/sEEA3ab.png'></img>
+                        </a>
                         <div className="project_buttons">
                             <a className='project_button hover_animate header_link'>Github</a>
                         </div>
@@ -55,10 +63,11 @@ const Projects = () => {
                     </div>
                     <div className="project_card alt_align">
                         <h3 className="project_title header_link">Pebble Prints</h3>
-                        <img className="project_thumbnail" src='https://i.imgur.com/pPepyyz.png'></img>
+                        <a href="https://pebble-prints.herokuapp.com/home" target="_blank">
+                            <img className="project_thumbnail" src='https://i.imgur.com/pPepyyz.png'></img>
+                        </a>
                         <div className="project_buttons">
                             <a className='project_button hover_animate header_link'>About</a>
-                            <a className='project_button hover_animate header_link'>Github</a>
                         </div>
                     </div>
                 </div>

@@ -17,7 +17,7 @@ const Footer = () => {
     return (
         <>
             <ul className="Socials">
-                <a href="https://github.com/mattpero22">
+                <a href="https://github.com/mattpero22" target='_blank'>
                     <img 
                         onMouseOver={handleGitLink} 
                         onMouseOut={handleGitLinkOff} 
@@ -26,7 +26,7 @@ const Footer = () => {
                         alt='github'>
                     </img>
                 </a>
-                <a href="https://www.linkedin.com/in/matthew-pero22/">
+                <a href="https://www.linkedin.com/in/matthew-pero22/" target='_blank'>
                     <img 
                         onMouseOver={handleInLink} 
                         onMouseOut={handleInLinkOff} 
