@@ -1,17 +1,18 @@
 .Socials {
     z-index: 10;
     display: flex;
-    justify-content: flex-end;
     align-items: center;
     width: 100vw;
     list-style: none;
     background-color: #252929;
     margin: 0px;
-    padding: 10px;
+    padding: 0px 10px;
 }
 
 .social_icon {
-    width: 64px;
+    width: 32px;
+    padding-left: 5px;
+    padding-top: 3px;
 }
 
 .Footer {
