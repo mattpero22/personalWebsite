@@ -1,20 +1,19 @@
 .Header {
     z-index: 10;
     position: fixed;
-    top: 3%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     list-style: none;
     height: 40px;
     min-width: 400px;
-
+    margin-top: 5px;
 }
 
 .header_link {
     transition: .5s;
     margin-right: 15px;
-    border-radius: 25%;
+    border-radius: 5px;
     background-color: #3D314A;
     border: 2px solid #6E8087;
     text-decoration: none;
@@ -24,5 +23,10 @@
 }
 
 .header_link > * {
-    padding: 2px 8px;
+    padding: 2px 5px;
+    margin: 0px;
+}
+
+.header_link > img {
+    width: 16px;
 }

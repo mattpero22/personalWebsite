@@ -1,3 +1,19 @@
+.Socials {
+    z-index: 10;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100vw;
+    list-style: none;
+    background-color: #252929;
+    margin: 0px;
+    padding: 10px;
+}
+
+.social_icon {
+    width: 64px;
+}
+
 .Footer {
     z-index: 10;
     display: flex;
@@ -5,7 +21,7 @@
     list-style: none;
     width: 100vw;
     font-size: 16px;
-    background-color: black;
+    background-color: #191c1d;
     padding: 10px 0px;
     margin: 0px;
 }

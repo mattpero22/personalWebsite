@@ -15,12 +15,10 @@
     align-self: flex-start;
     margin-left: 10%;
     margin-top: 0px;
-    padding-top: 75px;
 }
 
 .project_card {
-    width: 40%;
-    height: 10%;
+    width: 55%;
     background-color: #c7cfd1ce;
     display: flex;
     flex-direction: column;
@@ -33,14 +31,18 @@
     align-self: flex-end;
 }
 
-.project_card > h3 {
+.project_title {
     align-self: center;
     padding: 3px 25px;
+    font-size: 26px;
 }
 
 .project_thumbnail {
-    width: 50%;
-    min-width: 350px;
+    width: 98%;
+    max-height: 250px;
+    margin: 0 auto;
+    border: 2px solid #6E8087;
+    padding: 0px;
 }
 
 .project_buttons {
@@ -52,5 +54,6 @@
 .project_button {
     padding: 10px;
     width: 30%;
+    min-width: 100px;
     color: rgb(245, 245, 245);
 }
