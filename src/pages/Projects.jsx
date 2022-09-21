@@ -10,7 +10,7 @@ const Projects = () => {
                             <img className="project_thumbnail" src='https://i.imgur.com/pLnrklh.png' alt='p3 thumbnail'></img>
                         </a>
                         <div className="project_buttons">
-                            <a className='project_button hover_animate header_link' href="https://github.com/mattpero22/pero_password_protector" target="_blank" rel="noreferrer">GitHub rel="noreferrer"</a>
+                            <a className='project_button hover_animate header_link' href="https://github.com/mattpero22/pero_password_protector" target="_blank" rel="noreferrer">GitHub</a>
                         </div>
                     </div>
                     <div className="project_desc">
